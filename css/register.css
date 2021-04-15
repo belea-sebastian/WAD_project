@@ -1,0 +1,81 @@
+
+* {
+	padding : 0;
+	margin : 0;
+}
+
+body {
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/ss.jpg);
+	background-size: 100% 100%;
+	font-family: sans-serif;
+}
+
+.form-box {
+	width: 380px;
+	height: 550px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff;
+	padding: 5px;
+}
+ 
+ h1 {
+ 	text-align: center; 
+ 	color: black;
+ 	font-weight: normal;
+ 	margin-bottom: 20px;
+ 	margin-top: 50px;
+ }
+
+ img {
+ 	width: 80px;
+ 	margin-top: -50px;
+ 	display : block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
+
+ .form-group {
+ 	top: 150px;
+ 	position: absolute;
+ 	width: 280px;
+ 	transition: .5s;
+ 	left: 50px;
+ }
+
+ .input-field {
+ 	width: 100%;
+ 	padding: 5px 0;
+ 	margin: 10px 0;
+ 	border-left: 0;
+ 	border-top: 0;
+ 	border-right: 0;
+ 	border-bottom: 1px solid #999;
+ 	outline: none;
+ 	background: transparent;
+ 	font-size: 16px;
+ }
+
+ .submit-btn {
+ 	width: 85%;
+ 	padding: 15px 30px;
+ 	cursor: pointer;
+ 	display: block;
+ 	margin-top: 20px;
+ 	background: linear-gradient(to right, #666d99, #081c9c);
+ 	border: 0;
+ 	outline: none;
+ 	border-radius: 30px;
+ }
+
+ .submit-btn2 {
+ 	width: 85%;
+ 	padding: 15px 30px;
+ 	cursor: pointer;
+ 	display: block;
+ 	margin-top: 15px;
+ 	background: linear-gradient(to right, #666d99, #081c9c);
+ 	border: 0;
+ 	outline: none;
+ 	border-radius: 30px;
+ }
